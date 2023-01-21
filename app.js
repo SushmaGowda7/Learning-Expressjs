@@ -21,8 +21,4 @@ app.use((req, res, next) => {
     res.status(404).sendFile(path.join(__dirname, 'views', '404.html'))
 })
 
-// app.use((req, res, next) => {
-//     res.sendFile(path.join(__dirname, 'views', 'success.html'))
-// })
-
 app.listen(4000);
